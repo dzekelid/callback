@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: 3scale
 x-complete: 1
@@ -18,4 +17,19 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  //{hostname}/oauth/google/auth:
+    get:
+      summary: Google Callback
+      description: This endpoint should never be accessed directly by clients, it
+        is only ever used during the google oauth process during oauth.
+      operationId: OauthGoogleAuthByHostnameGet
+      x-api-path-slug: hostnameoauthgoogleauth-get
+      parameters:
+      - in: path
+        name: hostname
+      responses:
+        200:
+          description: OK
+      tags:
+      - ""

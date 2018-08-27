@@ -7,11 +7,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-
 x-kinRank: "8"
 x-alexaRank: "1965"
 tags: Callback
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/sap/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Manufacturing Network Customer APIs - Sends a callback message
+  x-api-slug: callback-post
+  description: |-
+    Upon the receipt of an event, send a response in an async way to the event framework of Manufacturing Network.
+
+    In the callback message, be sure to include the event ID. Add other information as appropriate.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/sap/callback-post-openapi.md
+- name: Manufacturing Network Partner APIs - Sends a callback message
+  x-api-slug: callback-post
+  description: |-
+    Upon the receipt of an event, send a response in an async way to the event framework of Manufacturing Network.
+
+    In the callback message, be sure to include the event ID. Add other information as appropriate.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/sap/callback-post-openapi.md
 x-common:
 - type: x-website
   url: https://www.sap.com/index.html

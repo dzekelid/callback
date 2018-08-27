@@ -1,0 +1,109 @@
+{
+	"name": "Streadata.io API Gallery - Callback",
+	"description": "This is a repository of callback APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/callback.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://callback.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Callback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MotaWord",
+			"x-api-slug": "motaword",
+			"description": "MotaWord is the world&rsquo;s fastest, lowest cost, cloud-based, collaborative business translation platform.MotaWord combines the efforts of talented human translators through the use of a cloud based translation platform. Our translators are able to login simultaneously into projects that fit their language combination and provide translation service collaboratively - while also seeing the whole content for contextual purposes. This ability to simultaneously utilize multiple translators makes MotaWord exceptionally fast and highly accurate.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png",
+			"humanURL": "http://www.motaword.com",
+			"baseURL": "https://api.motaword.com//",
+			"tags": "Callback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/motaword/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steem",
+			"x-api-slug": "steem",
+			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
+			"humanURL": "http://steemit.com",
+			"baseURL": "https://api.steemjs.com//",
+			"tags": "Callback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/steem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SAP",
+			"x-api-slug": "sap",
+			"description": "Get software and technology solutions from SAP, the leader in business applications.  Run simple with the best in cloud, analytics, mobile and IT solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg",
+			"humanURL": "https://www.sap.com/index.html",
+			"baseURL": "https://sandbox.api.sap.com//translationhub/api/v1",
+			"tags": "Callback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/sap/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Callback",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Callback",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "MotaWord",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/motaword/apis.yaml"
+		},
+		{
+			"name": "Steem",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/steem/apis.yaml"
+		},
+		{
+			"name": "SAP",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/sap/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/callback/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
